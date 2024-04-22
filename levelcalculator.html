@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Level Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="level-calculator">
+        <div class="stats">
+            <div class="stat-row">
+                <div>Level</div>
+                <div id="current-level">1</div>
+            </div>
+            <div class="stat-row" id="stat-template" style="display: none;">
+                <div>Stat</div>
+                <div class="init">10</div>
+                <input type="number" class="level" value="10" min="10" max="99">
+                <div class="total">10</div>
+            </div>
+        </div>
+        <button onclick="calculateRunes()">Calculate Total Runes</button>
+        <div class="runes">
+            <div>Total Runes: <span id="total-runes">0</span></div>
+            <div>To Next Level: <span id="to-next-level">0</span></div>
+        </div>
+    </div>
+
+    <script src="calculatorscript.js"></script>
+</body>
+</html>

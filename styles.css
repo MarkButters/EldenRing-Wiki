@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -50px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height: 50px; 
+}
+.footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #ddd;
+}
+.nav button {
+  padding: 10px 20px;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: #f8f8f8;
+}
+.info-text {
+  flex: 1;
+  margin-right: 10px;
+}
+.image-placeholder {
+  width: 40%;
+  background: url("/Images/eldenringboxart.jpg") no-repeat center center;
+  background-size: cover; /* This will cover the div regardless of the div size */
+}
+
+.button-container button { 
+  margin-right: 5px; 
+}
+
+
+.hidden { 
+  display: none; 
+}
