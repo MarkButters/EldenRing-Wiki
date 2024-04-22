@@ -77,7 +77,7 @@ html, body, head {
 }
 .image-fromsoft {
   width: 50%;
-  background: url("Images/SoulsBorne.jpg") no-repeat center center;
+  background: url("/Images/SoulsBorne.jpg") no-repeat center center;
   background-size: cover;
   max-height: 250px;
   margin-top: 50;
