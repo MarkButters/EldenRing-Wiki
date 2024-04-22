@@ -52,6 +52,7 @@ html, body, head {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  
   background-color: #ddd;
 }
 .nav button {
@@ -61,35 +62,57 @@ html, body, head {
   display: flex;
   justify-content: space-between;
   margin: 20px;
+  flex-direction: wrap;
+  gap: 20px;
   background-color: #f8f8f8;
 }
-.info-text, .image-from-soft, .image-you-died .image-infogame{
+.info-text {
   flex: 1;
+  min-width: 250px;
   margin-right: 10px;
   margin-left: 10px;
 }
-.image-infogame {
-  width: 40%;
-  max-height: 250px;
-  margin: 10px;
-}
-.image-from-soft {
-  width: 50%;
-  max-height: 10px;
-
+.box-infogame, .box-from-soft, .box-you-died {
+  flex: 1; /* Allows the image to grow and shrink with the container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: contain; /* Makes sure the entire image is visible, might add letterboxing */
+  margin: 10px; /* Adds margin around the image */
 }
 
-.image-you-died {
-  max-width: 100%;
+.image-infogame{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.image-soulsborne{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.image-youdied{
+  max-width: 250px;
   max-height: 250px;
-  margin-top: 10;
-  margin-right: 10;
+  height: 150px;
+  width: 250px;
+}
+
+.box-infogame {
+  max-width: 500px;
+  max-height: 500px;
+}
+.box-from-soft {
+  margin-top: 20;
+  max-width: 500px;
+  max-height: 500px;
+}
+.box-you-died {
+  max-width: 250px;
 }
 
 .button-container button { 
   margin-right: 5px; 
 }
-
 
 .hidden { 
   display: none; 
