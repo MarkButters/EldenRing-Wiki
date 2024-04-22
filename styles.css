@@ -63,30 +63,24 @@ html, body, head {
   margin: 20px;
   background-color: #f8f8f8;
 }
-.info-text {
+.info-text, .image-from-soft, .image-you-died .image-infogame{
   flex: 1;
   margin-right: 10px;
   margin-left: 10px;
 }
 .image-infogame {
   width: 40%;
-  background: url("Images/eldenringboxart.jpg") no-repeat center center;
-  background-size: cover;
   max-height: 250px;
   margin: 10px;
 }
-.image-fromsoft {
+.image-from-soft {
   width: 50%;
-  background: url("Images/SoulsBorne.jpg") no-repeat center center;
-  background-size: cover;
-  max-height: 250px;
-  margin-top: 50;
-  margin-right: 10;
+  max-height: 10px;
+
 }
-.image-youdied {
-  width: 50%;
-  background: url("Images/youdied.jpg");
-  background-size: cover;
+
+.image-you-died {
+  max-width: 100%;
   max-height: 250px;
   margin-top: 10;
   margin-right: 10;
