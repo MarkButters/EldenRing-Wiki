@@ -85,7 +85,11 @@ html, body, head {
 }
 .image-youdied {
   width: 50%;
+<<<<<<< Updated upstream
   background: url("EldenRing-Wiki/Images/youdied.jpg") no-repeat center center;
+=======
+  background: url("Images/youdied.jpg") no-repeat center center;
+>>>>>>> Stashed changes
   background-size: cover;
   max-height: 250px;
   margin-top: 10;
