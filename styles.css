@@ -20,10 +20,34 @@ html, body, head {
   padding: 20px;
 }
 .header {
-  text-align: center;
   padding: 20px;
   background-color: #eee;
 }
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -42,11 +66,30 @@ html, body, head {
 .info-text {
   flex: 1;
   margin-right: 10px;
+  margin-left: 10px;
 }
-.image-placeholder {
+.image-infogame {
   width: 40%;
   background: url("/Images/eldenringboxart.jpg") no-repeat center center;
-  background-size: cover; /* This will cover the div regardless of the div size */
+  background-size: cover;
+  max-height: 250px;
+  margin: 10px;
+}
+.image-fromsoft {
+  width: 50%;
+  background: url("/Images/SoulsBorne.jpg") no-repeat center center;
+  background-size: cover;
+  max-height: 250px;
+  margin-top: 50;
+  margin-right: 10;
+}
+.image-youdied {
+  width: 50%;
+  background: url("/Images/youdied.jpg") no-repeat center center;
+  background-size: cover;
+  max-height: 250px;
+  margin-top: 10;
+  margin-right: 10;
 }
 
 .button-container button { 
