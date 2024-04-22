@@ -70,14 +70,14 @@ html, body, head {
 }
 .image-infogame {
   width: 40%;
-  background: url("/Images/eldenringboxart.jpg") no-repeat center center;
+  background: url("Images/eldenringboxart.jpg") no-repeat center center;
   background-size: cover;
   max-height: 250px;
   margin: 10px;
 }
 .image-fromsoft {
   width: 50%;
-  background: url("/Images/SoulsBorne.jpg") no-repeat center center;
+  background: url("Images/SoulsBorne.jpg") no-repeat center center;
   background-size: cover;
   max-height: 250px;
   margin-top: 50;
@@ -85,7 +85,7 @@ html, body, head {
 }
 .image-youdied {
   width: 50%;
-  background: url("/Images/youdied.jpg") no-repeat center center;
+  background: url("Images/youdied.jpg") no-repeat center center;
   background-size: cover;
   max-height: 250px;
   margin-top: 10;
