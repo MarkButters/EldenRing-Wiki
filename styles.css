@@ -36,16 +36,16 @@ html, body, head {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #3495eb;
   border: none;
   border-radius: 5px;
 }
 
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: #4334eb}
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #4334eb;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -120,4 +120,9 @@ html, body, head {
 
 .hidden { 
   display: none; 
+}
+
+.level-calculator {
+  display: grid;
+  place-items: center;
 }
