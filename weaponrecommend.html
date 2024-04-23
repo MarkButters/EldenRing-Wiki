@@ -8,21 +8,28 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="page-wrap">
-  <div class="header">
-    <h1>Title of webpage</h1>
-  </div>
+  <div class="page-wrap">
+    <div class="header">
+      <h1>Elden Ring Wiki</h1>
+    </div>
+    
+    <div class="nav">
+      <a href="index.html" class="button">Main Page</a>
+      <a href="bossinfo.html" class="button">Boss Information</a>
+      <a href="levelcalculator.html" class="button">Level Calculator</a>
+    </div>
+
 <div class="button-container">
   <!-- Buttons to change content -->
-  <button onclick="changeContent('content1')">Dext</button>
-  <button onclick="changeContent('content2')">Button 2</button>
-  <button onclick="changeContent('content3')">Button 3</button>
-  <button onclick="changeContent('content4')">Button 4</button>
-  <button onclick="changeContent('content5')">Button 5</button>
+  <button onclick="changeContent('content1')" class="button">Dexterity</button>
+  <button onclick="changeContent('content2')" class="button">Strength</button>
+  <button onclick="changeContent('content3')" class="button">Faith</button>
+  <button onclick="changeContent('content4')" class="button">Intelligence</button>
+  <button onclick="changeContent('content5')" class="button">Arcane</button>
 </div>
 
 <div>
-  <p id="content-body">Please click a button to display content.</p>
+  <p id="content-body">This Page will display three weapons that are best when leveling a certain stat. Please click on one of the stat buttons.</p>
 </div>
 
 <div id="main-content">
@@ -32,10 +39,11 @@
 
 </div>  
 
-<footer class="footer">
-    <p>footer</p>
-</footer>
-<script src="script.js"></script>
+</div>
+<div class="footer">
+  <p>Mark Butters 40582992</p>
+</div>
+<script src="weaponscript.js"></script>
 
 </body>
 </html>

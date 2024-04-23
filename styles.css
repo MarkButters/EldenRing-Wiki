@@ -2,6 +2,8 @@ html, body, head {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #282c34;
+  color: white;
 }
 .page-wrap {
   min-height: 100%;
@@ -15,13 +17,13 @@ html, body, head {
   height: 50px; 
 }
 .footer {
-  background-color: #eee;
+  background-color: #20232a;
   text-align: center;
   padding: 20px;
 }
 .header {
   padding: 20px;
-  background-color: #eee;
+  background-color: #20232a;
 }
 
 .button {
@@ -53,10 +55,11 @@ html, body, head {
   justify-content: space-around;
   padding: 10px;
   
-  background-color: #ddd;
+  background-color: #20232a;
 }
 .nav button {
   padding: 10px 20px;
+  color: white;
 }
 .main-content {
   display: flex;
@@ -64,7 +67,8 @@ html, body, head {
   margin: 20px;
   flex-direction: wrap;
   gap: 20px;
-  background-color: #f8f8f8;
+  background-color: #20232a;
+  color:white
 }
 .info-text {
   flex: 1;
@@ -73,11 +77,11 @@ html, body, head {
   margin-left: 10px;
 }
 .box-infogame, .box-from-soft, .box-you-died {
-  flex: 1; /* Allows the image to grow and shrink with the container */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-size: contain; /* Makes sure the entire image is visible, might add letterboxing */
-  margin: 10px; /* Adds margin around the image */
+  flex: 1; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  margin: 10px; 
 }
 
 .image-infogame{
