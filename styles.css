@@ -126,3 +126,7 @@ html, body, head {
   display: grid;
   place-items: center;
 }
+
+.stat-row div {
+  margin-right: 8px; /* Adjust the value as needed */
+}
