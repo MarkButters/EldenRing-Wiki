@@ -22,14 +22,17 @@ const contentMap = {
   content3: {
     titles: ['Sacred Relic Sword', 'Blasphemous Blade', "Envoy's Greathorn"],
     bodies: [
-      'Paragraph for button 3.'
+      'The Sacred Relic Sword can be made using the Elden Remembrance at the Roundtable Hold. The Sacred Relic Sword requires 14 in strength, 24 in dexterity and 22 in faith.',
+      'The Blasphemous Blade can be made using the Remembrance of the Blashpemous at the Roundtable Hold, to get the remembrance of the Blashpemous you have to defeat Rykard, Lord of Blasphemy at Volcano Manor located in Mt.Gelmir. The Blasphemous Blade requires 22 in strength, 15 in dexterity and 21 in faith.',
+      "The Envoy's Greathorn is dropped by the Giant Oracle Envoy, they are found at Miquwlla's Haligtreem. The Envoy's Greathorn requires 28 in strength, 12 in dexterity and 24 in faith"
   ]
   },
 
   content4: {
-    titles: ['Moonveil', 'StarScourge Greatsword', "Bastard's Stars"],
+    titles: ['Moonveil', 'Starsourge Greatsword', "Bastard's Stars"],
     bodies: [
       'The Moonviel is acquired by defeating the Magma Wyrm in Gael Tunnel located in Caelid. The Moonviel requires 12 in strength, 18 in dexterity and 23 in intelligence.',
+      
 
     ]
   },
