@@ -29,10 +29,11 @@ const contentMap = {
   },
 
   content4: {
-    titles: ['Moonveil', 'Starsourge Greatsword', "Bastard's Stars"],
+    titles: ['Moonveil', 'Starsourge Greatsword', 'Fallingstar Beast Jaw'],
     bodies: [
       'The Moonviel is acquired by defeating the Magma Wyrm in Gael Tunnel located in Caelid. The Moonviel requires 12 in strength, 18 in dexterity and 23 in intelligence.',
-      
+      'The Starscourge Greatsword can be made using the Remembrance of the Starscourge at the Roundtable Hold. The Starscourge Greatsword requires 38 in strength, 12 in dexterity and 15 in intelligence.',
+      'The Fallingstar Beast Jaw can be acquired by defeating the Full-Grown Fallingstar Beast located in Mt.Gelmir. The Fallingstar Beast Jaw requires 34 in strength, 12 in dexterity and 20 in intelligence.'
 
     ]
   },
@@ -41,8 +42,8 @@ const contentMap = {
     titles: ["River's of Blood", "Scavenger's Curved Sword", "Grave Scythe"],
     bodies: [
       "The River's of Blood is acquired by defeating Bloody Finger Okina near the Church of Repose located in the Mountaintops of the Giants. The River's of Blood requires 12 in strength, 18 in dexterity and 20 in arcane",
-
-
+      "The Scavenger's Curved Sword can be found in Mt.Gelmir. The Scavenger's Curved Sword requires 9 in strength and 14 in dexterity.",
+      'The Grave Scythe is dropped by Skeleton Mages found around the game. The Grave Scythe requires 17 in strength and 13 in dexterity.'
     ]
   },
   
